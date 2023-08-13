@@ -2,7 +2,7 @@
 
     // cookie = informatio about a user stired in a users web browser
 
-    setcookie("fav_food", "pizza", time() + 86400 * 2, "/");
+    setcookie("fav_food", "pizza", time() + 86400 * 2, "/"); // -2 to clear cookie 
     setcookie("fav_drink", "coffee", time() + (86400 * 3),"/");
     setcookie("fav_dessert", "ice cream", time() + (86400 * 4),"/");
 
